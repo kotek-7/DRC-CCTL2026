@@ -2638,8 +2638,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at -10.16 10.16)
-			(size 1.27 1.27)
-			(drill 0.635)
+			(size 1.524 1.524)
+			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 68 "unconnected-(LCD1-V0-Pad1)")
@@ -2649,8 +2649,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at -7.62 10.16)
-			(size 1.27 1.27)
-			(drill 0.635)
+			(size 1.524 1.524)
+			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 51 "Net-(LCD1-VOUT)")
@@ -2660,8 +2660,8 @@
 		)
 		(pad "3" thru_hole circle
 			(at -5.08 10.16)
-			(size 1.27 1.27)
-			(drill 0.635)
+			(size 1.524 1.524)
+			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 46 "Net-(LCD1-CAP1N)")
@@ -2671,8 +2671,8 @@
 		)
 		(pad "4" thru_hole circle
 			(at -2.54 10.16)
-			(size 1.27 1.27)
-			(drill 0.635)
+			(size 1.524 1.524)
+			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 47 "Net-(LCD1-CAP1P)")
@@ -2682,8 +2682,8 @@
 		)
 		(pad "5" thru_hole circle
 			(at 0 10.16)
-			(size 1.27 1.27)
-			(drill 0.635)
+			(size 1.524 1.524)
+			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "+3V3")
@@ -2693,8 +2693,8 @@
 		)
 		(pad "6" thru_hole circle
 			(at 2.54 10.16)
-			(size 1.27 1.27)
-			(drill 0.635)
+			(size 1.524 1.524)
+			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -2704,8 +2704,8 @@
 		)
 		(pad "7" thru_hole circle
 			(at 5.08 10.16)
-			(size 1.27 1.27)
-			(drill 0.635)
+			(size 1.524 1.524)
+			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 30 "/LCD_SDA")
@@ -2715,8 +2715,8 @@
 		)
 		(pad "8" thru_hole circle
 			(at 7.62 10.16)
-			(size 1.27 1.27)
-			(drill 0.635)
+			(size 1.524 1.524)
+			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 29 "/LCD_SCL")
@@ -2726,8 +2726,8 @@
 		)
 		(pad "9" thru_hole circle
 			(at 10.16 10.16)
-			(size 1.27 1.27)
-			(drill 0.635)
+			(size 1.524 1.524)
+			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "+3V3")
@@ -2758,15 +2758,15 @@
 			(uuid "3eeba8a6-4d9a-4d6c-8b24-18599e406023")
 		)
 		(embedded_fonts no)
-		(model "${VSRKICADLIB}/3dshapes/AQM1602Y-NLW.wrl"
+		(model "${KIPRJMOD}/3dshapes/AQM1602Y-NLW-FBW.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -21.8 -11.37 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -21518,7 +21518,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "80.01"
+		(gr_text "3150"
 			(at 150.005 56.46 0)
 			(layer "Dwgs.User")
 			(uuid "b32e7745-ed5f-467a-aefe-ee8d689eb7d2")
@@ -21556,7 +21556,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "60"
+		(gr_text "2362.2047"
 			(at 96.15 100 90)
 			(layer "Dwgs.User")
 			(uuid "fb3c07db-0dd6-4e90-bf8a-fa558fbe9ad6")
