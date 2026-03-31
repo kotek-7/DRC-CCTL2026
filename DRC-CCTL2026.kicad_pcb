@@ -8142,7 +8142,7 @@
 			(roundrect_rratio 0.25)
 			(net 81 "unconnected-(U1-PB7-Pad60)")
 			(pinfunction "PB7")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "fe419078-140d-444b-9d9a-139ab84c090f")
 		)
 		(pad "61" smd roundrect
