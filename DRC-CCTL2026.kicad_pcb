@@ -10174,7 +10174,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "470"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "45bdecf8-2bf6-4c2d-9ec2-d85e2d7da3ea")
@@ -14464,7 +14464,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "c4bea218-5283-4aaa-bfc9-3def0e7b06ce")
@@ -15734,7 +15734,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "470"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "084be6dd-45b0-45fb-ba73-e34821084b36")
