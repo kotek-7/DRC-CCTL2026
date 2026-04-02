@@ -5,7 +5,7 @@
 	(uuid "5b9f915a-dea8-4ee6-a342-61437447bbca")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xGxx:74AHCT1G125"
+		(symbol "74xGxx:74AHC1G125"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -17,7 +17,7 @@
 					)
 				)
 			)
-			(property "Value" "74AHCT1G125"
+			(property "Value" "74AHC1G125"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -70,7 +70,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "74AHCT1G125_0_1"
+			(symbol "74AHC1G125_0_1"
 				(polyline
 					(pts
 						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
@@ -84,7 +84,7 @@
 					)
 				)
 			)
-			(symbol "74AHCT1G125_1_1"
+			(symbol "74AHC1G125_1_1"
 				(pin input line
 					(at -15.24 0 0)
 					(length 7.62)
@@ -12879,82 +12879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74AHCT1G125")
-		(at 148.59 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7371d43e-6a0c-4bc5-aa51-5b961f89d38a")
-		(property "Reference" "U3"
-			(at 134.112 137.922 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT1G125"
-			(at 134.112 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lib:SOT95P280X145-5N"
-			(at 148.59 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 148.59 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
-			(at 148.59 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "5be48f35-8e3e-434a-a04b-ebd6e8e124af")
-		)
-		(pin "3"
-			(uuid "99d8ce20-aa75-4339-871d-3360aca3371d")
-		)
-		(pin "4"
-			(uuid "f3e980c0-016c-460e-b3ca-9e3bbd549085")
-		)
-		(pin "2"
-			(uuid "6e4e30f3-0635-408b-b655-e36e02c96f0c")
-		)
-		(pin "1"
-			(uuid "96c3000b-6742-4d20-b12c-abad0c0dec28")
-		)
-		(instances
-			(project "DRC-CCTL2026"
-				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 261.62 71.12 0)
 		(unit 1)
@@ -13014,6 +12938,82 @@
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AHC1G125")
+		(at 148.59 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b6463b7-54e1-46ba-bb71-e927fe05b339")
+		(property "Reference" "U3"
+			(at 133.858 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1G125"
+			(at 133.858 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 148.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 148.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 148.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a68506ec-a400-4746-a490-8101fe62d044")
+		)
+		(pin "1"
+			(uuid "17a761dd-1254-44b3-ad05-93cb73ece6cf")
+		)
+		(pin "4"
+			(uuid "b2c85e96-5711-440a-baf3-aa3be312b5bb")
+		)
+		(pin "2"
+			(uuid "ae25dcf2-a8f8-40b6-a89a-0587ff020db4")
+		)
+		(pin "3"
+			(uuid "003dc80b-eb2e-4c38-94df-1f2b499577f2")
+		)
+		(instances
+			(project "DRC-CCTL2026"
+				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13627,25 +13627,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a395c009-269a-4a00-8506-00c80fe8be89")
 		(property "Reference" "C2"
-			(at 40.6463 135.89 90)
+			(at 40.6463 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "12p"
-			(at 40.6463 138.43 90)
+		(property "Value" "10p"
+			(at 40.6463 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 40.64 132.08 0)
 			(effects
 				(font
@@ -15590,7 +15589,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "10p"
 			(at 40.6463 120.65 90)
 			(effects
 				(font
@@ -15598,7 +15597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 40.64 124.46 0)
 			(effects
 				(font
