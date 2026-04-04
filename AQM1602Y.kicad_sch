@@ -2051,7 +2051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fc25b23-be0c-47bd-8841-6f4b517db436")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -2101,7 +2101,7 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/3d8d4604-9990-4cd6-b941-b64af6e081cc"
-					(reference "#PWR057")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2188,7 +2188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28e134b9-39e6-47b9-9acb-d9321aa3c146")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR060"
 			(at 179.07 66.04 0)
 			(effects
 				(font
@@ -2239,7 +2239,7 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/3d8d4604-9990-4cd6-b941-b64af6e081cc"
-					(reference "#PWR058")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2324,7 +2324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3be8fa5b-9c2d-47ba-a826-476e00f8372a")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 129.54 116.84 0)
 			(effects
 				(font
@@ -2374,7 +2374,7 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/3d8d4604-9990-4cd6-b941-b64af6e081cc"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2459,7 +2459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66ed364f-99ac-410e-bb76-73c23a8b79b6")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 138.43 116.84 0)
 			(effects
 				(font
@@ -2509,7 +2509,7 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/3d8d4604-9990-4cd6-b941-b64af6e081cc"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2612,7 +2612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73609965-52ab-490c-8302-dbe960dae3d7")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 141.986 119.634 0)
 			(effects
 				(font
@@ -2666,7 +2666,7 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/3d8d4604-9990-4cd6-b941-b64af6e081cc"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2683,7 +2683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77644131-ae31-4713-bf99-b16dbf803734")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 129.54 101.6 0)
 			(effects
 				(font
@@ -2733,7 +2733,7 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/3d8d4604-9990-4cd6-b941-b64af6e081cc"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2749,7 +2749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a34202f8-6c16-4a5a-a6b0-85ff9ed8c8ad")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 149.86 96.52 0)
 			(effects
 				(font
@@ -2800,7 +2800,7 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/3d8d4604-9990-4cd6-b941-b64af6e081cc"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2981,7 +2981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdb1a2a7-3693-47b8-bc33-a76c6b79aeb0")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 137.414 119.634 0)
 			(effects
 				(font
@@ -3035,7 +3035,7 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/3d8d4604-9990-4cd6-b941-b64af6e081cc"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)

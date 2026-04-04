@@ -145,156 +145,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Small_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Small_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, small symbol, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Small_Open_0_0"
-				(circle
-					(center -1.016 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.016 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Open_0_1"
-				(arc
-					(start -0.762 1.0196)
-					(mid 0 1.2729)
-					(end 0.762 1.0196)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Open_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TJA1441AT:TJA1441AT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1092,7 +942,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 59.69) (xy 120.65 62.23)
+			(xy 120.65 59.69) (xy 120.65 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1202,7 +1052,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 72.39) (xy 120.65 74.93)
+			(xy 120.65 69.85) (xy 120.65 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1373,7 +1223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02a767da-0ee6-4786-8a13-407dc9a7f8c8")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -1423,93 +1273,15 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/0dbeca16-7879-4708-bbfc-c767bc55099f"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/8961d3ed-2b54-4595-a187-2d9f43ade7c1"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/ca8f340b-c206-4785-b43a-605b2d347bc5"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 120.65 64.77 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37f99871-5880-49db-bd85-39259bf3aadf")
-		(property "Reference" "JP1"
-			(at 123.19 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TR"
-			(at 123.19 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3735d75f-4337-4314-a1dd-255f2491a2e4")
-		)
-		(pin "2"
-			(uuid "a4294461-558c-4206-b728-4d694ff7d1f3")
-		)
-		(instances
-			(project "DRC-CCTL2026"
-				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/0dbeca16-7879-4708-bbfc-c767bc55099f"
-					(reference "JP1")
-					(unit 1)
-				)
-				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/8961d3ed-2b54-4595-a187-2d9f43ade7c1"
-					(reference "JP2")
-					(unit 1)
-				)
-				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/ca8f340b-c206-4785-b43a-605b2d347bc5"
-					(reference "JP3")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -1601,7 +1373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fefb853-6038-430d-97a8-6aef0fa12969")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 104.14 88.9 0)
 			(effects
 				(font
@@ -1651,15 +1423,15 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/0dbeca16-7879-4708-bbfc-c767bc55099f"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/8961d3ed-2b54-4595-a187-2d9f43ade7c1"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/ca8f340b-c206-4785-b43a-605b2d347bc5"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -1667,15 +1439,15 @@
 	)
 	(symbol
 		(lib_id "lib:R_Small")
-		(at 120.65 69.85 0)
+		(at 120.65 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "71a427c1-a44a-4144-a9fe-d7755d720a59")
-		(property "Reference" "R6"
-			(at 121.92 68.58 0)
+		(property "Reference" "R7"
+			(at 121.92 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1456,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 121.92 71.12 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1465,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 120.65 69.85 0)
+			(at 120.65 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +1474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 69.85 0)
+			(at 120.65 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1483,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 120.65 69.85 0)
+			(at 120.65 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,15 +1500,15 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/0dbeca16-7879-4708-bbfc-c767bc55099f"
-					(reference "R6")
-					(unit 1)
-				)
-				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/8961d3ed-2b54-4595-a187-2d9f43ade7c1"
 					(reference "R7")
 					(unit 1)
 				)
-				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/ca8f340b-c206-4785-b43a-605b2d347bc5"
+				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/8961d3ed-2b54-4595-a187-2d9f43ade7c1"
 					(reference "R8")
+					(unit 1)
+				)
+				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/ca8f340b-c206-4785-b43a-605b2d347bc5"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1826,7 +1598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94b78522-3b8b-4b9f-bd92-ddc58257c8b5")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -1876,15 +1648,15 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/0dbeca16-7879-4708-bbfc-c767bc55099f"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/8961d3ed-2b54-4595-a187-2d9f43ade7c1"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/ca8f340b-c206-4785-b43a-605b2d347bc5"
-					(reference "#PWR049")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -1899,7 +1671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ada833ab-8d56-4351-899b-a738934a2d12")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 96.52 60.96 0)
 			(effects
 				(font
@@ -1949,15 +1721,15 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/0dbeca16-7879-4708-bbfc-c767bc55099f"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/8961d3ed-2b54-4595-a187-2d9f43ade7c1"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/ca8f340b-c206-4785-b43a-605b2d347bc5"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -1972,7 +1744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc0b0e8c-dac8-4621-bccd-06adc75feee1")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 104.14 55.88 0)
 			(effects
 				(font
@@ -2022,15 +1794,15 @@
 		(instances
 			(project "DRC-CCTL2026"
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/0dbeca16-7879-4708-bbfc-c767bc55099f"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/8961d3ed-2b54-4595-a187-2d9f43ade7c1"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 				(path "/5b9f915a-dea8-4ee6-a342-61437447bbca/ca8f340b-c206-4785-b43a-605b2d347bc5"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
