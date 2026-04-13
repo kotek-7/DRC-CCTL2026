@@ -98,6 +98,7 @@
                 "STM32G4xx",
                 "STM32G474xx",
                 "PIO_FRAMEWORK_ARDUINO_ENABLE_CDC",
+                "HAL_FDCAN_MODULE_ENABLED",
                 "STM32G4xx",
                 "ARDUINO=10808",
                 "ARDUINO_ARCH_STM32",

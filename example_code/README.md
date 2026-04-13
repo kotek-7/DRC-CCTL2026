@@ -11,14 +11,12 @@
 
 1. `samples/` から使いたいサンプルを選ぶ
 2. 中身を `src/main.cpp` にコピーする
-3. 通常サンプルは `nucleo_g474re` env でビルドする
-4. USB CDC サンプルだけ `usbcdc` env でビルドする
+3. `nucleo_g474re` env でビルドする
 
 ビルド例:
 
 ```sh
 /home/kotek/.platformio/penv/bin/pio run -e nucleo_g474re
-/home/kotek/.platformio/penv/bin/pio run -e usbcdc
 ```
 
 サンプル一覧:
@@ -28,3 +26,4 @@
 - `samples/sample_usart.cpp`
 - `samples/sample_i2c.cpp`
 - `samples/sample_usbcdc.cpp`
+- `samples/sample_can.cpp`
