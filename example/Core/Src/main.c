@@ -21,6 +21,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+void setup(void);
+void loop(void);
 
 /* USER CODE END Includes */
 
@@ -114,6 +116,7 @@ int main(void) {
   MX_USART3_UART_Init();
   MX_USB_PCD_Init();
   /* USER CODE BEGIN 2 */
+  setup();
 
   /* USER CODE END 2 */
 
@@ -123,10 +126,7 @@ int main(void) {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    HAL_GPIO_WritePin(LED_BI_GPIO_Port, LED_BI_Pin, GPIO_PIN_SET);
-    HAL_Delay(100);
-    HAL_GPIO_WritePin(LED_BI_GPIO_Port, LED_BI_Pin, GPIO_PIN_RESET);
-    HAL_Delay(100);
+    loop();
   }
   /* USER CODE END 3 */
 }
