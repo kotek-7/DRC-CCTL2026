@@ -2,5 +2,5 @@
 
 キャチロボ2026用中央制御基板のKiCad回路図データです。
 
-vv v0.2.1 vv
+プレビュー (v0.2.1):
 https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fkotek-7%2FDRC-CCTL2026%2Ftree%2Fv0.2.1
