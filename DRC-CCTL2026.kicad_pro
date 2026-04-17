@@ -196,6 +196,7 @@
       "track_widths": [
         0.0,
         0.4,
+        0.6,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -771,7 +772,19 @@
     ],
     [
       "3d8d4604-9990-4cd6-b941-b64af6e081cc",
-      "AQM1602Y_LCD"
+      "LCD"
+    ],
+    [
+      "146b6999-268f-4ea4-bdd7-3cd18bbc14dc",
+      "USBC1"
+    ],
+    [
+      "9ef61620-75c0-4cc7-b1fa-ed5c7627f28c",
+      "USBC2"
+    ],
+    [
+      "c7e26ebb-7118-46b0-8012-dea281c8f82f",
+      "STM32G474"
     ]
   ],
   "text_variables": {},

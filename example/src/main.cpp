@@ -14,4 +14,4 @@ extern PCD_HandleTypeDef hpcd_USB_FS;
 /*
  * 使いたいサンプルを 1 つだけ include する。
  */
-#include "sample_buzzer.cpp"
+#include "sample_lcd.cpp"
