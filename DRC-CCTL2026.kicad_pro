@@ -776,15 +776,15 @@
     ],
     [
       "146b6999-268f-4ea4-bdd7-3cd18bbc14dc",
-      "USBC1"
-    ],
-    [
-      "9ef61620-75c0-4cc7-b1fa-ed5c7627f28c",
-      "USBC2"
+      "USB_UART"
     ],
     [
       "c7e26ebb-7118-46b0-8012-dea281c8f82f",
       "STM32G474"
+    ],
+    [
+      "4bb6f5cf-6280-40b1-98b5-17c9c7917d4b",
+      "USB_C"
     ]
   ],
   "text_variables": {},
