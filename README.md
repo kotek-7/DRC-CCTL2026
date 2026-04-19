@@ -1,4 +1,4 @@
-<img width="1723" height="921" alt="image" src="https://github.com/user-attachments/assets/88db258a-e6a6-49d1-94e9-11e3d2dc9b63" />
+<img width="1083" height="593" alt="image" src="https://github.com/user-attachments/assets/d59bcf7d-5cc2-44d5-a8b4-ee5b99ddbace" />
 
 キャチロボ2026用中央制御基板のKiCad回路図データです。
 
