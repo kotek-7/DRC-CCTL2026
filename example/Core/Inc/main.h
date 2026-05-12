@@ -79,6 +79,8 @@ void Error_Handler(void);
 #define I2C1_INT_GPIO_Port GPIOB
 #define I2C2_INT_Pin GPIO_PIN_1
 #define I2C2_INT_GPIO_Port GPIOB
+#define BZ_TIM15_CH2_Pin GPIO_PIN_15
+#define BZ_TIM15_CH2_GPIO_Port GPIOB
 #define I2C2_SCL_Pin GPIO_PIN_6
 #define I2C2_SCL_GPIO_Port GPIOC
 #define ISC2_SDA_Pin GPIO_PIN_7
@@ -93,18 +95,16 @@ void Error_Handler(void);
 #define SW2_GPIO_Port GPIOA
 #define SW1_Pin GPIO_PIN_10
 #define SW1_GPIO_Port GPIOA
-#define BZ_TIM1_CH4_Pin GPIO_PIN_11
-#define BZ_TIM1_CH4_GPIO_Port GPIOA
+#define USB_CDC_DM_Pin GPIO_PIN_11
+#define USB_CDC_DM_GPIO_Port GPIOA
+#define USB_CDC_DP_Pin GPIO_PIN_12
+#define USB_CDC_DP_GPIO_Port GPIOA
 #define LCD_SCL_Pin GPIO_PIN_15
 #define LCD_SCL_GPIO_Port GPIOA
-#define USART_USB2_TX_Pin GPIO_PIN_10
-#define USART_USB2_TX_GPIO_Port GPIOC
-#define USART_USB2_RX_Pin GPIO_PIN_11
-#define USART_USB2_RX_GPIO_Port GPIOC
-#define UART_USB1_TX_Pin GPIO_PIN_12
-#define UART_USB1_TX_GPIO_Port GPIOC
-#define UART_USB1_RX_Pin GPIO_PIN_2
-#define UART_USB1_RX_GPIO_Port GPIOD
+#define USART_USB_TX_Pin GPIO_PIN_10
+#define USART_USB_TX_GPIO_Port GPIOC
+#define USART_USB_RX_Pin GPIO_PIN_11
+#define USART_USB_RX_GPIO_Port GPIOC
 #define LCD_SDA_Pin GPIO_PIN_7
 #define LCD_SDA_GPIO_Port GPIOB
 
